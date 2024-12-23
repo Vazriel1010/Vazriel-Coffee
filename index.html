@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vazriel Coffee - Toko online jual berbagai macam kopi Lampung berkualitas.">
+  <meta name="keywords" content="toko online, kopi, Lampung, premium">
+  <meta name="author" content="Vazriel Putra Herisdianto">
+  <title>Vazriel Coffee</title>
+
+  <style>
+    body {
+      background-image: url('https://th.bing.com/th/id/OIP.7j-KIVKD6KANa9lgRuPM4QHaE7?w=258&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(90, 42, 39, 0.8); /* Semi-transparent background */
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      margin-bottom: 20px;
+      border-bottom: 5px solid #c69f90;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin-top: 15px;
+      font-size: 1.4em;
+      color: #5a2a27;
+    }
+
+    .product p {
+      font-size: 1em;
+      color: #555;
+      margin: 10px 0;
+      line-height: 1.4;
+    }
+
+    .price {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #D2691E;
+      margin-top: 10px;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 24px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: background-color 0.3s;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #128C7E;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #5a2a27;
+      color: white;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    .operation-hours {
+      font-size: 1.1em;
+      margin-top: 15px;
+      color: #d1d1d1;
+    }
+
+  </style>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Vazriel Putra Herisdianto",
+      "identifier": "23050489",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "Universitas Yatsi Madani",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Aria Santika No. 40, Karawaci",
+          "addressLocality": "Banten",
+          "postalCode": "15114"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+62 21 55726558",
+          "contactType": "administrative"
+        }
+      },
+      "alumniOf": "Ilkom Malam C",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://universitas-yatsi-madani.ac.id"
+      }
+    }
+  </script>
+
+</head>
+<body>
+  <header>
+    <h1>Vazriel Coffee</h1>
+    <p>Nikmati kenikmatan kopi asli Lampung dengan kualitas terbaik</p>
+  </header>
+
+  <section class="product-container">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="https://kopinganu.com/wp-content/uploads/2020/10/6192550913743370705.jpg" alt="Kopi Lampung Premium">
+      <h3>Kopi Lampung Premium</h3>
+      <p>Rasakan kenikmatan kopi premium Lampung yang memikat. Nikmati aroma khas dan rasa yang tak terlupakan.</p>
+      <div class="price">Rp. 65,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="https://cdn.linkumkm.id/library/4/1/0/4/3/41043_840x576.jpg" alt="Kopi Lampung Lembut">
+      <h3>Kopi Lampung Lembut</h3>
+      <p>Kopi dengan rasa yang lembut dan halus, ideal untuk pencinta kopi yang tidak terlalu kuat.</p>
+      <div class="price">Rp. 90,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.aa4JzrWymbDl4qBD1Crz4QHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Kopi Lampung Spesial">
+      <h3>Kopi Lampung Spesial</h3>
+      <p>Kopi spesial dengan kualitas terbaik dari Lampung. Dapatkan sensasi rasa yang kuat dan penuh karakter.</p>
+      <div class="price">Rp. 65,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.qoJPiwmLhIzqS_NN8etNkAHaEc?w=259&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Kopi Lampung Classic">
+      <h3>Kopi Lampung Classic</h3>
+      <p>Kopi dengan cita rasa klasik yang menggoda selera, sempurna untuk setiap kesempatan santai.</p>
+      <div class="price">Rp. 95,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.0fzJjrFzIk2DiFZaQYNdjQHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Kopi Lampung Sedap">
+      <h3>Kopi Lampung Sedap</h3>
+      <p>Menawarkan rasa sedap dan menenangkan, sangat cocok untuk menemani waktu santai Anda.</p>
+      <div class="price">Rp. 85,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product">
+      <img src="https://th.bing.com/th/id/OIP.kSwZLPyEuwSCS5c32yBNwgHaHZ?w=156&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Kopi Lampung Standard">
+      <h3>Kopi Lampung Standard</h3>
+      <p>Kopi ekonomis yang tetap menawarkan rasa yang memuaskan, cocok untuk dinikmati sehari-hari.</p>
+      <div class="price">Rp. 80,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product">
+      <img src="https://ecs7.tokopedia.net/img/cache/700/product-1/2017/7/31/19216317/19216317_0f7169b4-e350-4d5a-84a2-fc7fcb6b3db8_700_1000.jpg" alt="Kopi Robusta Super">
+      <h3>Kopi Robusta Super</h3>
+      <p>Kopi Robusta pilihan dengan rasa kuat dan kaya, cocok bagi penggemar kopi yang suka rasa pekat.</p>
+      <div class="price">Rp. 70,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="product">
+      <img src="https://loccino.com.my/wp-content/uploads/2021/01/Charcoal-Roasted-Coffee.png" alt="Kopi Arabica Premium">
+      <h3>Kopi Arabica Premium</h3>
+      <p>Kopi Arabica dengan cita rasa premium, memberikan sensasi rasa yang lebih lembut dan halus.</p>
+      <div class="price">Rp. 40,000</div>
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Vazriel Putra Herisdianto.</p>
+    <p>Jam Operasional: Senin - Jumat, 09:00 - 18:00</p>
+    <p>Untuk pemesanan, hubungi via WhatsApp: 
+      <a href="https://wa.me/6281370795110" class="whatsapp-button" target="_blank">Hubungi Kami</a>
+    </p>
+    <p>Alamat Toko: Jl. Galeong no 3</p>
+  </footer>
+</body>
+</html>
